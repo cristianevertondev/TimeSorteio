@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">TimeSorteio</string>
+
+    <!-- Sport Selection -->
+    <string name="sport_selection_title">Elige el deporte</string>
+
+    <!-- Players Per Team -->
+    <string name="players_per_team_title">¿Cuántas personas habrá en cada equipo?</string>
+    <string name="players_per_team_label">Personas por equipo</string>
+
+    <!-- Total Players -->
+    <string name="total_players_title">¿Cuántas personas participarán?</string>
+    <string name="total_players_label">Número de personas</string>
+
+    <!-- Outside Team Selection -->
+    <string name="outside_team_title">¿Habrá equipo de afuera?</string>
+    <string name="outside_team_yes_description">Los equipos incompletos serán el equipo de afuera.</string>
+    <string name="outside_team_no_description">Todos los jugadores serán distribuidos entre los equipos.</string>
+
+    <!-- Same Quantity Selection -->
+    <string name="same_quantity_title">¿El equipo de afuera tendrá la misma cantidad?</string>
+    <string name="same_quantity_yes_description">El equipo de afuera tendrá la misma cantidad que los otros equipos.</string>
+    <string name="same_quantity_no_description">El equipo de afuera recibirá a las personas restantes.</string>
+
+    <!-- Player Names -->
+    <string name="player_names_title">Ingresa los nombres de los jugadores</string>
+
+    <!-- Review -->
+    <string name="review_title">Revisar configuración</string>
+    <string name="review_sport">Deporte</string>
+    <string name="review_players_per_team">Personas por equipo</string>
+    <string name="review_total_players">Total de personas</string>
+    <string name="review_complete_teams">Equipos completos</string>
+    <string name="review_outside_team">Equipo de afuera</string>
+    <string name="review_same_quantity">Misma cantidad</string>
+    <string name="review_remaining_people">Personas restantes</string>
+    <string name="review_participants">Participantes</string>
+
+    <!-- Result -->
+    <string name="result_title">Equipos Formados</string>
+    <string name="result_team_format">%1$s • %2$d personas</string>
+    <string name="result_outside_team">Equipo de afuera (%1$d)</string>
+
+    <!-- Buttons -->
+    <string name="continue_button">Continuar</string>
+    <string name="back_button">Volver</string>
+    <string name="draw_button">Sortear equipos</string>
+    <string name="redraw_button">Sortear de nuevo</string>
+    <string name="back_to_start_button">Volver al inicio</string>
+    <string name="share_button">Compartir resultado</string>
+    <string name="save_pdf_button">Guardar como PDF</string>
+
+    <!-- Options -->
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <!-- Errors -->
+    <string name="error_min_players">Se requiere al menos 1 jugador.</string>
+    <string name="error_min_players_per_team">Se requiere al menos 1 persona por equipo.</string>
+    <string name="error_cannot_form_teams">No se pueden formar equipos con la cantidad informada.</string>
+    <string name="error_empty_name">El nombre no puede estar vacío</string>
+    <string name="error_duplicate_name">Este nombre ya fue usado. Use un nombre diferente.</string>
+    <string name="error_insufficient_players">Número insuficiente de jugadores para formar los equipos.</string>
+
+    <!-- Sports -->
+    <string name="football">Fútbol</string>
+    <string name="volleyball">Vóley</string>
+    <string name="basketball">Básquet</string>
+    <string name="futsal">Futsal</string>
+    <string name="handball">Handball</string>
+    <string name="tennis">Tenis</string>
+    <string name="tabletennis">Tenis de mesa</string>
+    <string name="swimming">Natación</string>
+    <string name="athletics">Atletismo</string>
+    <string name="cycling">Ciclismo</string>
+</resources>

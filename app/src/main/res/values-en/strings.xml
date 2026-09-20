@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">TimeSorteio</string>
+
+    <!-- Sport Selection -->
+    <string name="sport_selection_title">Choose the sport</string>
+
+    <!-- Players Per Team -->
+    <string name="players_per_team_title">How many people will be on each team?</string>
+    <string name="players_per_team_label">People per team</string>
+
+    <!-- Total Players -->
+    <string name="total_players_title">How many people will participate?</string>
+    <string name="total_players_label">Number of people</string>
+
+    <!-- Outside Team Selection -->
+    <string name="outside_team_title">Will there be an outside team?</string>
+    <string name="outside_team_yes_description">Incomplete teams will be the outside team.</string>
+    <string name="outside_team_no_description">All players will be distributed among the teams.</string>
+
+    <!-- Same Quantity Selection -->
+    <string name="same_quantity_title">Will the outside team have the same quantity?</string>
+    <string name="same_quantity_yes_description">The outside team will have the same quantity as other teams.</string>
+    <string name="same_quantity_no_description">The outside team will receive the remaining people.</string>
+
+    <!-- Player Names -->
+    <string name="player_names_title">Enter the players\' names</string>
+
+    <!-- Review -->
+    <string name="review_title">Review configuration</string>
+    <string name="review_sport">Sport</string>
+    <string name="review_players_per_team">People per team</string>
+    <string name="review_total_players">Total people</string>
+    <string name="review_complete_teams">Complete teams</string>
+    <string name="review_outside_team">Outside team</string>
+    <string name="review_same_quantity">Same quantity</string>
+    <string name="review_remaining_people">Remaining people</string>
+    <string name="review_participants">Participants</string>
+
+    <!-- Result -->
+    <string name="result_title">Teams Formed</string>
+    <string name="result_team_format">%1$s • %2$d people</string>
+    <string name="result_outside_team">Outside team (%1$d)</string>
+
+    <!-- Buttons -->
+    <string name="continue_button">Continue</string>
+    <string name="back_button">Back</string>
+    <string name="draw_button">Draw teams</string>
+    <string name="redraw_button">Draw again</string>
+    <string name="back_to_start_button">Back to start</string>
+    <string name="share_button">Share result</string>
+    <string name="save_pdf_button">Save as PDF</string>
+
+    <!-- Options -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Errors -->
+    <string name="error_min_players">At least 1 player is required.</string>
+    <string name="error_min_players_per_team">At least 1 person per team is required.</string>
+    <string name="error_cannot_form_teams">Cannot form teams with the given quantity.</string>
+    <string name="error_empty_name">Name cannot be empty</string>
+    <string name="error_duplicate_name">This name has already been used. Use a different name.</string>
+    <string name="error_insufficient_players">Insufficient number of players to form teams.</string>
+
+    <!-- Sports -->
+    <string name="football">Football</string>
+    <string name="volleyball">Volleyball</string>
+    <string name="basketball">Basketball</string>
+    <string name="futsal">Futsal</string>
+    <string name="handball">Handball</string>
+    <string name="tennis">Tennis</string>
+    <string name="tabletennis">Table Tennis</string>
+    <string name="swimming">Swimming</string>
+    <string name="athletics">Athletics</string>
+    <string name="cycling">Cycling</string>
+</resources>

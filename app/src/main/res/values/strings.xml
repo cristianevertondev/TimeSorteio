@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">TimeSorteio</string>
+
+    <!-- Sport Selection -->
+    <string name="sport_selection_title">Escolha o esporte</string>
+
+    <!-- Players Per Team -->
+    <string name="players_per_team_title">Quantas pessoas terão em cada time?</string>
+    <string name="players_per_team_label">Pessoas por time</string>
+
+    <!-- Total Players -->
+    <string name="total_players_title">Quantas pessoas vão participar?</string>
+    <string name="total_players_label">Número de pessoas</string>
+
+    <!-- Outside Team Selection -->
+    <string name="outside_team_title">Terá time de fora?</string>
+    <string name="outside_team_yes_description">Times incompletos ficarão como time de fora.</string>
+    <string name="outside_team_no_description">Todos os jogadores serão distribuídos entre os times.</string>
+
+    <!-- Same Quantity Selection -->
+    <string name="same_quantity_title">O time de fora terá a mesma quantidade de pessoas?</string>
+    <string name="same_quantity_yes_description">O time de fora terá a mesma quantidade dos outros times.</string>
+    <string name="same_quantity_no_description">O time de fora receberá as pessoas restantes.</string>
+
+    <!-- Player Names -->
+    <string name="player_names_title">Informe os nomes dos jogadores</string>
+
+    <!-- Review -->
+    <string name="review_title">Revisar configuração</string>
+    <string name="review_sport">Esporte</string>
+    <string name="review_players_per_team">Pessoas por time</string>
+    <string name="review_total_players">Total de pessoas</string>
+    <string name="review_complete_teams">Times completos</string>
+    <string name="review_outside_team">Time de fora</string>
+    <string name="review_same_quantity">Mesma quantidade</string>
+    <string name="review_remaining_people">Pessoas restantes</string>
+    <string name="review_participants">Participantes</string>
+
+    <!-- Result -->
+    <string name="result_title">Times Formados</string>
+    <string name="result_team_format">%1$s • %2$d pessoas</string>
+    <string name="result_outside_team">Time de fora (%1$d)</string>
+
+    <!-- Buttons -->
+    <string name="continue_button">Continuar</string>
+    <string name="back_button">Voltar</string>
+    <string name="draw_button">Sortear times</string>
+    <string name="redraw_button">Sortear novamente</string>
+    <string name="back_to_start_button">Voltar ao início</string>
+    <string name="share_button">Compartilhar resultado</string>
+    <string name="save_pdf_button">Salvar como PDF</string>
+
+    <!-- Options -->
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <!-- Errors -->
+    <string name="error_min_players">É necessário pelo menos 1 jogador.</string>
+    <string name="error_min_players_per_team">É necessário pelo menos 1 pessoa por time.</string>
+    <string name="error_cannot_form_teams">Não é possível formar times com a quantidade informada.</string>
+    <string name="error_empty_name">Nome não pode ser vazio</string>
+    <string name="error_duplicate_name">Este nome já foi usado. Use um nome diferente.</string>
+    <string name="error_insufficient_players">Número insuficiente de jogadores para formar os times.</string>
+
+    <!-- Sports -->
+    <string name="football">Futebol</string>
+    <string name="volleyball">Vôlei</string>
+    <string name="basketball">Basquete</string>
+    <string name="futsal">Futsal</string>
+    <string name="handball">Handebol</string>
+    <string name="tennis">Tênis</string>
+    <string name="tabletennis">Tênis de mesa</string>
+    <string name="swimming">Natação</string>
+    <string name="athletics">Atletismo</string>
+    <string name="cycling">Ciclismo</string>
+</resources>
